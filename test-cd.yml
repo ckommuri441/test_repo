@@ -3,12 +3,12 @@ email: ramakrishna.k@careem.com
 
 Stages:
 	- build
-	- deploy-qa	
+	- deploy-qa1	
 jobs:
 	- name: build
 	  stage: build
 	  cmd: date
 	
-	- name: deploy-qa
-	  stage: deploy-qa
+	- name: deploy-qa1
+	  stage: deploy-qa1
 	  cmd: date        
