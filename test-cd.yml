@@ -1,0 +1,14 @@
+team: Careem Foods
+email: ramakrishna.k@careem.com
+
+Stages:
+	- build
+	- deploy-qa	
+jobs:
+	- name: build
+	  stage: build
+	  cmd: date
+	
+	- name: deploy-qa
+	  stage: deploy-qa
+	  cmd: date        
